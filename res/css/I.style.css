@@ -96,7 +96,7 @@ display:inline;
 width:23.40426%;
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 }
 
@@ -689,7 +689,7 @@ text-decoration:none;
 width:19.14894%;
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 margin-top:5px;
 text-align:right;
@@ -772,7 +772,7 @@ margin-bottom:.75em;
 width:77.14286%;
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 }
 
@@ -1334,7 +1334,7 @@ display:inline;
 width:48.93617%;
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 text-align:right;
 }
@@ -1672,7 +1672,7 @@ padding-right:1.538em;
 #full-content,#footer-sidebar .footer-4 {
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 }
 
@@ -1890,7 +1890,7 @@ border:0;
 }
 }
 
-@media screen and max-width768px {
+@media screen and (max-width:768px) {
 #searchform input[type=image] {
 right:5px;
 }
@@ -1913,7 +1913,7 @@ display:inline;
 #sidebar .widget:nth-child(2n+2) {
 float:right;
 margin-right:0;
-#margin-left:-1.538em;
+margin-left:-1.538em;
 display:inline;
 clear:right;
 }
@@ -1927,7 +1927,7 @@ width:100%;
 }
 }
 
-@media screen and min-width480px and max-width766px {
+@media screen and (min-width:480px) and (max-width:766px) {
 .site-title,.site-description {
 display:block;
 text-align:center;
@@ -1968,7 +1968,7 @@ margin-right:0;
 }
 }
 
-@media screen and max-width600px {
+@media screen and (max-width:600px) {
 .nav {
 display:none;
 }
@@ -1987,7 +1987,7 @@ padding:2px;
 }
 }
 
-@media screen and max-width479px {
+@media screen and (max-width:479px) {
 .main-navigation {
 height:2.5em;
 }
