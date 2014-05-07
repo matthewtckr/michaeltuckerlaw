@@ -1,47 +1,50 @@
-body
-{
-	color:#000;
-	font:11pt Arial,Helvetica,"Lucida Grande",serif;
-	letter-spacing:.2px;
-	line-height:2em;
-	margin:0;
-	padding:0;
-	word-spacing:1px;
+body {
+line-height:2em;
+word-spacing:1px;
+letter-spacing:.2px;
+font:11pt Arial,Helvetica,"Lucida Grande",serif;
+color:#000;
+margin:0;
+padding:0;
 }
 
-#primary-nav,#breadcrumbs,#sidebar
-{
-	display:none;
-	visibility:hidden;
+#primary-nav,#breadcrumbs,#sidebar {
+display:none;
+visibility:hidden;
 }
 
-a:link,a:visited
-{
-	background:transparent;
-	color:#333;
-	text-decoration:none;
+a:link,a:visited {
+background:transparent;
+color:#333;
+text-decoration:none;
 }
 
-a:link[href^=http://]:after,a[href^=http://]:visited:after
-{
-	content:" \(" attr(href) "\) ";
-	font-size:11px;
+a:link[href^=http://]:after,a[href^=http://]:visited:after {
+content:" \(" attr(href) "\) ";
+font-size:11px;
 }
 
-a[href^=http://]
-{
-	color:#000;
+a[href^=http://] {
+color:#000;
 }
 
-p
-{
-	line-height:1.5em;
+
+
+p {
+line-height:1.5em;
 }
 
-img.alignright
-{
-	clear:both;
-	display:block;
-	float:right;
-	margin:0 0 0 10px;
+img.alignright {
+clear:both;
+display:block;
+margin-left:auto;
+margin-right:auto;
 }
+
+
+img.alignright {
+float:right;
+margin:0 0 0 10px;
+}
+
+
