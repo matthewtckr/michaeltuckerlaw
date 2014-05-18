@@ -493,8 +493,10 @@ embed,iframe,object
 {
 	display:inline;
 	float:left;
-	margin-right:5%;
-	width:45%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom: 10px;
+	width:60%;
 }
 
 ul.children
