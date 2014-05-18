@@ -1,0 +1,9 @@
+name: Law Office of I. Michael Tucker
+markdown: redcarpet
+pygments: true
+encoding: UTF-8
+redcarpet:
+  extensions: [xhtml]
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
