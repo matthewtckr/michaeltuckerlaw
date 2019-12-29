@@ -1,6 +1,6 @@
 name: Law Office of I. Michael Tucker
 markdown: redcarpet
-pygments: true
+rouge: true
 encoding: UTF-8
 redcarpet:
   extensions: [xhtml]
